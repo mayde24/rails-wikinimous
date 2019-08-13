@@ -10,6 +10,16 @@
   </head>
 
   <body>
-    <%= yield %>
+    <div class="header">
+      <div>
+        <h1><h4 class="text"><%= link_to "Wikinimous", articles_path %></h1>
+      </div>
+      <div>
+        <h1><h4 class="text"><%= link_to "New article", article_new_path %></h1>
+      </div>
+    </div>
+    <div class="container">
+      <%= yield %>
+    </div>
   </body>
 </html>

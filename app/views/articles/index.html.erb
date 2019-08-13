@@ -1,0 +1,6 @@
+<% @articles.each do |article| %>
+<div class="article">
+  <h3 class="title"><%= link_to article.title, article_path(article) %></h3>
+  <p class="content"><%= Faker::Lorem.sentence %></p>
+</div>
+<% end %>

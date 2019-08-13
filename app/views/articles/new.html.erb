@@ -1,0 +1,17 @@
+<h1 class="center">Create a new article</h1>
+
+<div class="styleflex">
+  <%= form_for(@articles) do |f| %>
+  <div class="input">
+    <%= f.label :title %>
+    <%= f.text_field :title %>
+  </div>
+
+  <div class="input two">
+    <%= f.label :content %>
+    <%= f.text_field :content %>
+  </div>
+
+  <div class="button"><%= f.submit %></div>
+<% end %>
+</div>

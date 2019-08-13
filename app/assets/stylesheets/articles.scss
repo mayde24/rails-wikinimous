@@ -1,0 +1,133 @@
+// Place all the styles related to the articles controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.center {
+  text-align:center;
+  color: red;
+  margin-bottom: 75px;
+  margin-top: 50px;
+}
+
+.styleflex {
+  display:flex;
+  flex-direction: column;
+}
+
+.styleflex .button {
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.button input {
+  background-color: transparent;
+  border: none;
+  color:white;
+  font-size: 20px;
+}
+
+.input input {
+  width: 80%;
+  height: 20px;
+  padding: 5px 8px;
+}
+.two input {
+  height: 50px;
+  align-items:flex-start;
+  resize: none;
+}
+.input label {
+  font-size: 20px;
+}
+
+.input {
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  margin-bottom: 10px;
+}
+
+body {
+  margin: 0px;
+  background-color: white;
+}
+
+.container {
+  width: 40%;
+  margin: 0 auto;
+}
+
+.header {
+  position: sticky;
+  top:0;
+  background-color: #F7F9FC;
+  box-shadow: -1px 2px 5px 1px rgba(0, 0, 0, 0.5);
+  margin-bottom: 15px;
+}
+
+.article {
+  border-radius: 5px;
+  border: 2px solid rgb(230,230,230);
+  padding: 15px 20px;
+  margin-bottom: 15px;
+  text-align:justify;
+}
+
+.article:hover {
+  box-shadow: -1px 2px 5px 1px rgba(0, 0, 0, 0.3);
+  transition-duration: 1s;
+}
+
+.title a {
+  color: red;
+  text-decoration: none;
+  cursor:pointer;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.text a {
+  color:black;
+  text-decoration:none;
+  font-size: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.button {
+  border-radius: 5px;
+  background-color: #8B0000;
+  color:white;
+  padding: 15px 20px;
+  width: 180px;
+  text-align: center;
+  opacity: 0.6;
+}
+
+.button a {
+  color:white;
+  margin-top: 15px;
+}
+
+.button:hover {
+  opacity: 1;
+  transition-duration: 1s;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container-button {
+  display: flex;
+  justify-content: space-between;
+}
+
+.center-please {
+  display:flex;
+  justify-content:center;
+}
+
+.header {
+  display:flex;
+  justify-content: space-between;
+}
